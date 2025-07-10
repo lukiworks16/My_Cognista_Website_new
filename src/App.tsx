@@ -5,7 +5,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import CourseCards from './components/CourseCards';
 import ToolsCarousel from './components/ToolsCarousel';
 import CurriculumTabs from './components/CurriculumTabs';
-import Mentors from './components/Mentors';
+// import Mentors from './components/Mentors';
 import CareerServices from './components/CareerServices';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -78,7 +78,7 @@ function App() {
       <CourseCards onOpenPopup={openPopup} onOpenCourseDetail={openCourseDetail} />
       <ToolsCarousel />
       <CurriculumTabs onOpenPopup={openPopup} />
-      <Mentors onOpenPopup={openPopup} />
+      {/* <Mentors onOpenPopup={openPopup} /> */}
       <CareerServices onOpenPopup={openPopup} />
       <Testimonials onOpenPopup={openPopup} />
       <FAQ onOpenPopup={openPopup} />
