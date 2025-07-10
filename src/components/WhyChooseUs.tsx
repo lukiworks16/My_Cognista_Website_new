@@ -59,24 +59,77 @@ const WhyChooseUs: React.FC = () => {
         {/* Tools Preview */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-8">Master Industry-Standard Tools</h3>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">Python</span>
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-6 max-w-4xl mx-auto">
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">Python</span>
+              </div>
             </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">TensorFlow</span>
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                  alt="TensorFlow"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">TensorFlow</span>
+              </div>
             </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">Power BI</span>
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                  alt="Power BI"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">Power BI</span>
+              </div>
             </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">Tableau</span>
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png"
+                  alt="Tableau"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">Tableau</span>
+              </div>
             </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">Docker</span>
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                  alt="Docker"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">Docker</span>
+              </div>
             </div>
-            <div className="bg-white px-6 py-3 rounded-lg shadow-md">
-              <span className="font-semibold text-gray-700">MongoDB</span>
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+              <div className="flex flex-col items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB"
+                  className="w-12 h-12 mb-2 group-hover:scale-110 transition-transform"
+                />
+                <span className="font-semibold text-gray-700 text-sm">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8">
+            <p className="text-gray-600 mb-4">And many more industry-standard technologies...</p>
+            <div className="flex justify-center">
+              <a 
+                href="#tools" 
+                className="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-semibold"
+              >
+                View All Technologies
+              </a>
             </div>
           </div>
         </div>
