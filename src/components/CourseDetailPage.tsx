@@ -19,8 +19,8 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹1,50,000',
-      originalPrice: '₹2,00,000',
+      price: '₹50,000',
+      originalPrice: '₹1,00,000',
       rating: 4.9,
       students: '2,500+',
       overview: {
