@@ -3,7 +3,7 @@ import { Menu, X, Brain, Phone, User, ChevronDown, Download, Calendar, MessageCi
 import WhatsAppButton from './WhatsAppButton';
 
 interface HeaderProps {
-  onOpenCourseDetail?: (courseId: string) => void;
+  onOpenCourseDetail: (courseId: string) => void;
 }
 
 const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
@@ -15,8 +15,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
       category: 'AI & Machine Learning',
       courses: [
         { name: 'Master in Artificial Intelligence', duration: '12 Months', id: 'master-ai' },
-        { name: 'Machine Learning Specialist', duration: '8 Months', id: 'master-ai' },
-        { name: 'Deep Learning Expert', duration: '6 Months', id: 'master-ai' }
+        { name: 'Machine Learning Specialist', duration: '8 Months', id: 'machine-learning' },
+        { name: 'Deep Learning Expert', duration: '6 Months', id: 'deep-learning' }
       ]
     },
     {
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
       courses: [
         { name: 'Master in Data Science', duration: '10 Months', id: 'master-data-science' },
         { name: 'Data Analyst Professional', duration: '6 Months', id: 'data-analyst' },
-        { name: 'Business Intelligence', duration: '4 Months', id: 'data-analyst' }
+        { name: 'Business Intelligence', duration: '4 Months', id: 'business-intelligence' }
       ]
     },
     {
@@ -49,15 +49,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
   };
 
   const handleCourseClick = (courseId: string) => {
-    if (onOpenCourseDetail) {
-      onOpenCourseDetail(courseId);
-    } else {
-      // Scroll to courses section if on home page
-      const coursesSection = document.getElementById('courses');
-      if (coursesSection) {
-        coursesSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
+    onOpenCourseDetail(courseId);
     setActiveDropdown(null);
     setIsMenuOpen(false);
   };

@@ -42,7 +42,7 @@ function App() {
   if (currentView === 'course' && selectedCourse) {
     return (
       <div className="min-h-screen bg-white">
-        <Header />
+        <Header onOpenCourseDetail={openCourseDetail} />
         <CourseDetailPage 
           courseId={selectedCourse} 
           onBack={backToHome}
@@ -72,7 +72,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <Header onOpenCourseDetail={openCourseDetail} />
       <Hero onOpenPopup={openPopup} />
       <WhyChooseUs />
       <CourseCards onOpenPopup={openPopup} onOpenCourseDetail={openCourseDetail} />

@@ -368,6 +368,244 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         }
       ]
     },
+    'machine-learning': {
+      title: 'Machine Learning Specialist',
+      subtitle: 'Master machine learning algorithms and build predictive models',
+      duration: '8 Months',
+      icon: Brain,
+      color: 'from-purple-500 to-pink-500',
+      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      price: '₹90,000',
+      originalPrice: '₹1,30,000',
+      rating: 4.8,
+      students: '1,800+',
+      overview: {
+        description: 'Specialize in machine learning with our focused 8-month program. Learn to build and deploy ML models that solve real business problems.',
+        highlights: [
+          'Supervised & Unsupervised Learning',
+          'Feature Engineering',
+          'Model Selection & Validation',
+          'MLOps & Deployment',
+          'Advanced Algorithms',
+          'Industry Case Studies'
+        ],
+        outcomes: [
+          'Machine Learning Engineer',
+          'Data Scientist',
+          'ML Research Scientist',
+          'AI Consultant',
+          'Predictive Analytics Specialist',
+          'ML Product Manager'
+        ]
+      },
+      curriculum: {
+        modules: [
+          {
+            title: 'ML Fundamentals',
+            duration: '3 weeks',
+            topics: ['Python for ML', 'Statistics', 'Linear Algebra', 'Probability']
+          },
+          {
+            title: 'Supervised Learning',
+            duration: '6 weeks',
+            topics: ['Regression', 'Classification', 'Decision Trees', 'Ensemble Methods']
+          },
+          {
+            title: 'Unsupervised Learning',
+            duration: '4 weeks',
+            topics: ['Clustering', 'Dimensionality Reduction', 'Association Rules', 'Anomaly Detection']
+          },
+          {
+            title: 'Advanced ML',
+            duration: '6 weeks',
+            topics: ['Neural Networks', 'SVM', 'Gradient Boosting', 'Time Series']
+          },
+          {
+            title: 'MLOps & Deployment',
+            duration: '4 weeks',
+            topics: ['Model Deployment', 'Monitoring', 'A/B Testing', 'CI/CD for ML']
+          },
+          {
+            title: 'Capstone Project',
+            duration: '5 weeks',
+            topics: ['End-to-end ML Project', 'Model Optimization', 'Production Deployment', 'Presentation']
+          }
+        ]
+      },
+      tools: ['Python', 'Scikit-learn', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'MLflow', 'Docker'],
+      projects: [
+        'Customer Churn Prediction',
+        'Recommendation System',
+        'Fraud Detection Model',
+        'Price Optimization Engine',
+        'Demand Forecasting System'
+      ],
+      mentors: [
+        {
+          name: 'Dr. Sarah Chen',
+          designation: 'Senior ML Engineer',
+          company: 'Google',
+          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    'deep-learning': {
+      title: 'Deep Learning Expert',
+      subtitle: 'Master neural networks and deep learning architectures',
+      duration: '6 Months',
+      icon: Brain,
+      color: 'from-purple-500 to-pink-500',
+      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      price: '₹70,000',
+      originalPrice: '₹1,00,000',
+      rating: 4.9,
+      students: '1,200+',
+      overview: {
+        description: 'Become a deep learning expert with our intensive 6-month program. Master neural networks, CNNs, RNNs, and cutting-edge architectures.',
+        highlights: [
+          'Neural Network Architectures',
+          'Computer Vision with CNNs',
+          'NLP with Transformers',
+          'Generative Models',
+          'Deep Reinforcement Learning',
+          'Production Deep Learning'
+        ],
+        outcomes: [
+          'Deep Learning Engineer',
+          'Computer Vision Engineer',
+          'NLP Engineer',
+          'AI Research Scientist',
+          'ML Engineer',
+          'AI Consultant'
+        ]
+      },
+      curriculum: {
+        modules: [
+          {
+            title: 'Neural Network Basics',
+            duration: '3 weeks',
+            topics: ['Perceptrons', 'Backpropagation', 'Activation Functions', 'Optimization']
+          },
+          {
+            title: 'Convolutional Networks',
+            duration: '4 weeks',
+            topics: ['CNNs', 'Image Classification', 'Object Detection', 'Transfer Learning']
+          },
+          {
+            title: 'Recurrent Networks',
+            duration: '4 weeks',
+            topics: ['RNNs', 'LSTMs', 'GRUs', 'Sequence Models']
+          },
+          {
+            title: 'Advanced Architectures',
+            duration: '4 weeks',
+            topics: ['Transformers', 'Attention Mechanisms', 'BERT', 'GPT']
+          },
+          {
+            title: 'Generative Models',
+            duration: '3 weeks',
+            topics: ['GANs', 'VAEs', 'Diffusion Models', 'Style Transfer']
+          },
+          {
+            title: 'Production DL',
+            duration: '6 weeks',
+            topics: ['Model Optimization', 'Deployment', 'Monitoring', 'Scaling']
+          }
+        ]
+      },
+      tools: ['PyTorch', 'TensorFlow', 'Keras', 'OpenCV', 'Transformers', 'CUDA', 'Docker', 'MLflow'],
+      projects: [
+        'Image Classification System',
+        'Chatbot with Transformers',
+        'Style Transfer Application',
+        'Object Detection Model',
+        'Generative Art with GANs'
+      ],
+      mentors: [
+        {
+          name: 'Dr. Sarah Chen',
+          designation: 'Senior AI Researcher',
+          company: 'Google DeepMind',
+          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    'business-intelligence': {
+      title: 'Business Intelligence Professional',
+      subtitle: 'Transform data into actionable business insights',
+      duration: '4 Months',
+      icon: BarChart,
+      color: 'from-blue-500 to-cyan-500',
+      image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpg?auto=compress&cs=tinysrgb&w=1200',
+      price: '₹60,000',
+      originalPrice: '₹90,000',
+      rating: 4.7,
+      students: '1,500+',
+      overview: {
+        description: 'Master business intelligence tools and techniques to drive data-driven decision making across organizations.',
+        highlights: [
+          'Data Warehousing Concepts',
+          'ETL Processes',
+          'Dashboard Development',
+          'KPI Design & Monitoring',
+          'Business Analytics',
+          'Reporting Automation'
+        ],
+        outcomes: [
+          'Business Intelligence Analyst',
+          'Data Analyst',
+          'Reporting Specialist',
+          'BI Developer',
+          'Analytics Consultant',
+          'Business Analyst'
+        ]
+      },
+      curriculum: {
+        modules: [
+          {
+            title: 'BI Fundamentals',
+            duration: '2 weeks',
+            topics: ['BI Concepts', 'Data Warehousing', 'OLAP vs OLTP', 'Business Requirements']
+          },
+          {
+            title: 'Data Modeling',
+            duration: '3 weeks',
+            topics: ['Star Schema', 'Snowflake Schema', 'Dimensional Modeling', 'Data Marts']
+          },
+          {
+            title: 'ETL Development',
+            duration: '4 weeks',
+            topics: ['Data Extraction', 'Transformation Logic', 'Data Loading', 'SSIS/Talend']
+          },
+          {
+            title: 'Visualization Tools',
+            duration: '4 weeks',
+            topics: ['Power BI Advanced', 'Tableau', 'QlikView', 'Dashboard Design']
+          },
+          {
+            title: 'Analytics & KPIs',
+            duration: '3 weeks',
+            topics: ['Business Metrics', 'KPI Design', 'Performance Monitoring', 'Trend Analysis']
+          }
+        ]
+      },
+      tools: ['Power BI', 'Tableau', 'SQL Server', 'SSIS', 'Excel', 'QlikView', 'Python', 'R'],
+      projects: [
+        'Executive Dashboard Suite',
+        'Sales Performance Analytics',
+        'Financial Reporting System',
+        'Customer Analytics Portal',
+        'Operational KPI Dashboard'
+      ],
+      mentors: [
+        {
+          name: 'Dr. Priya Sharma',
+          designation: 'Principal BI Architect',
+          company: 'Microsoft',
+          image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
     'tableau': {
       title: 'Tableau Expert Certification',
       subtitle: 'Master data visualization and create stunning interactive dashboards',
