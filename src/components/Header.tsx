@@ -52,6 +52,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
     onOpenCourseDetail(courseId);
     setActiveDropdown(null);
     setIsMenuOpen(false);
+    window.location.hash = '#courses';
+    
   };
 
   return (
