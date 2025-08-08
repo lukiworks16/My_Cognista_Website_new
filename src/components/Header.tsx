@@ -162,6 +162,15 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
             <a href="#faq" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               FAQ
             </a>
+           
+                    <a
+                      href="#courses"
+                      className="text-purple-600 font-semibold hover:text-purple-700 transition-colors"
+                    >
+                      View All Courses →
+                    </a>
+                  
+            
           </nav>
 
           {/* Desktop CTAs */}
