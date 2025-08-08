@@ -151,9 +151,9 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
               )}
             </div>
 
-            {/* <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
+             <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Mentors
-            </a> */}
+            </a>
             <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Success Stories
             </a>
