@@ -52,7 +52,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
     onOpenCourseDetail(courseId);
     setActiveDropdown(null);
     setIsMenuOpen(false);
-    window.location.hash = '#courses';
+
     
   };
 
@@ -167,7 +167,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
                       href="#courses"
                       className="text-purple-600 font-semibold hover:text-purple-700 transition-colors"
                     >
-                      View All Courses →
+                      ViewCourses
                     </a>
                   
             
