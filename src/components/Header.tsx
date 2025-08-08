@@ -264,6 +264,12 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
               <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium">
                 Success Stories
               </a>
+              <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium">
+                Mentors
+              </a>
+              <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
+                Mentors
+              </a>
               <a href="#faq" className="text-gray-700 hover:text-purple-600 font-medium">
                 FAQ
               </a>
