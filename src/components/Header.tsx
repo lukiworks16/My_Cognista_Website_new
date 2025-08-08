@@ -174,7 +174,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
           <div className="hidden lg:flex items-center space-x-4">
           {/* WhatsApp Button with number */}
   <a
-    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with TechAcademy."
+    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center justify-center px-4 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
@@ -279,7 +279,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
               <div className="flex flex-col space-y-2 pt-4">
   {/* WhatsApp Button with phone number visible */}
   <a
-    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with TechAcademy."
+    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center justify-center px-6 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
