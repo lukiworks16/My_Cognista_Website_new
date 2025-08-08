@@ -172,21 +172,32 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
 
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center space-x-4">
-            <WhatsAppButton 
-              message="Hi! I want to book a free career consultation call with TechAcademy."
-              className="px-4 py-2 rounded-lg"
-            >
-              <span>WhatsApp</span>
-            </WhatsAppButton>
-            <button className="flex items-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors">
-              <Phone className="h-4 w-4" />
-              <span>Book Free Call</span>
-            </button>
-            <button className="flex items-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
-              <User className="h-4 w-4" />
-              <span>Login</span>
-            </button>
-          </div>
+          {/* WhatsApp Button with number */}
+  <a
+    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with TechAcademy."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center px-4 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
+  >
+    <span>WhatsApp</span>
+  </a>
+
+  {/* Book Free Call with number */}
+  <a
+    href="tel:+918778315673"
+    className="flex items-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors"
+  >
+    <Phone className="h-4 w-4" />
+    <span>Book Free Call</span>
+  </a>
+
+  {/* Login Button (unchanged) */}
+  <button className="flex items-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
+    <User className="h-4 w-4" />
+    <span>Login</span>
+  </button>
+</div>
+
 
           {/* Mobile Menu Button */}
           <button
@@ -266,19 +277,32 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
               </a>
               
               <div className="flex flex-col space-y-2 pt-4">
-                <WhatsAppButton 
-                  message="Hi! I want to book a free career consultation call with TechAcademy."
-                  className="px-6 py-2 rounded-lg justify-center"
-                />
-                <button className="flex items-center justify-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg">
-                  <Phone className="h-4 w-4" />
-                  <span>Book Free Call</span>
-                </button>
-                <button className="flex items-center justify-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg">
-                  <User className="h-4 w-4" />
-                  <span>Login</span>
-                </button>
-              </div>
+  {/* WhatsApp Button with phone number visible */}
+  <a
+    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with TechAcademy."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center px-6 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
+  >
+    <span>WhatsApp</span>
+  </a>
+
+  {/* Book Free Call with tel: link */}
+  <a
+    href="tel:+918778315673"
+    className="flex items-center justify-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg"
+  >
+    <Phone className="h-4 w-4" />
+    <span>Book Free Call</span>
+  </a>
+
+  {/* Login button unchanged */}
+  <button className="flex items-center justify-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg">
+    <User className="h-4 w-4" />
+    <span>Login</span>
+  </button>
+</div>
+
             </nav>
           </div>
         )}
