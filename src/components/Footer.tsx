@@ -4,10 +4,10 @@ import WhatsAppButton from './WhatsAppButton';
 
 const Footer: React.FC = () => {
   const courseCategories = [
-    'Master in AI',
-    'Master in Data Science',
-    'Data Analyst',
-    'Full Stack Python',
+    'Master Of Artificial Intelligence',
+    'Master Of Data Science',
+    'Master Of Data Analytics',
+    'Master Of Python Programming',
     'Power BI',
     'Tableau',
     'Machine Learning',
