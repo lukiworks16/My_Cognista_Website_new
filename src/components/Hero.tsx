@@ -18,17 +18,17 @@ const Hero: React.FC<HeroProps> = ({ onOpenPopup }) => {
 
   const banners = [
     {
-      title: "Master in AI",
+      title: "Master of Artificial Intelligence",
       subtitle: "Build intelligent systems and neural networks",
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
-      title: "Data Science",
+      title: "Master of Data Science",
       subtitle: "Analyze data and extract meaningful insights",
       image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=800"
     },
     {
-      title: "Full Stack Python",
+      title: "Master of Python Programming",
       subtitle: "Build complete web applications from scratch",
       image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpg?auto=compress&cs=tinysrgb&w=800"
     }
