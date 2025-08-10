@@ -10,7 +10,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
   const courses = [
     {
       id: 'master-ai',
-      title: 'Master Of Artificial Intelligence',
+      title: 'Master of Artificial Intelligence',
       duration: '6 Months',
       icon: Brain,
       tools: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV'],
@@ -22,7 +22,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
     },
     {
       id: 'master-data-science',
-      title: 'Master Of  Data Science',
+      title: 'Master of  Data Science',
       duration: '3 Months',
       icon: BarChart,
       tools: ['Python', 'Numpy', 'Pandas', 'Scikit-learn'],
@@ -34,7 +34,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
     },
     {
       id: 'data-analyst',
-      title: 'Master Of Data Analytics',
+      title: 'Master of Data Analytics',
       duration: '3 Months',
       icon: BarChart,
       tools: ['SQL', 'Excel', 'Python', 'Tableau'],
@@ -46,7 +46,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
     },
     {
       id: 'full-stack-python',
-      title: 'Master Of Python Programming',
+      title: 'Master of Python Programming',
       duration: '3 Months',
       icon: Code,
       tools: ['Python', 'Django', 'Flask', 'PostgreSQL'],
@@ -58,7 +58,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
     },
     {
       id: 'power-bi',
-      title: 'Master Of Power BI',
+      title: 'Master of Power BI',
       duration: '3 Months',
       icon: BarChart,
       tools: ['Power BI', 'DAX', 'Power Query', 'Excel'],
@@ -70,7 +70,7 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
     },
     {
       id: 'tableau',
-      title: 'Master Of Tableau',
+      title: 'Master of Tableau',
       duration: '3 Months',
       icon: Database,
       tools: ['Tableau', 'SQL', 'Statistics', 'Analytics'],
