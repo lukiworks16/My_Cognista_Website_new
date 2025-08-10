@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
     'Master Of Data Science',
     'Master Of Data Analytics',
     'Master Of Python Programming',
-    'Power BI',
-    'Tableau',
-    'Machine Learning',
-    'Deep Learning'
+    'Master Of Power BI',
+    'Master Of Tableau',
+    'Master Of Machine Learning',
+    'Master Of Deep Learning'
   ];
 
   const quickLinks = [
@@ -26,9 +26,9 @@ const Footer: React.FC = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, text: '+91-9876543210', href: 'tel:+919876543210' },
-    { icon: Mail, text: 'info@techacademy.com', href: 'mailto:info@techacademy.com' },
-    { icon: MapPin, text: 'Bangalore, Mumbai, Delhi, Hyderabad', href: '#' }
+    { icon: Phone, text: '+91-8778315673', href: 'tel:+918778315673' },
+    { icon: Mail, text: 'support@cognista.com', href: 'mailto:support@cognista.com' },
+    { icon: MapPin, text: 'Bangalore, Chennai , Vellore , Madurai', href: '#' }
   ];
 
   const socialLinks = [
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-2 rounded-lg">
                 <Brain className="h-8 w-8 text-white" />
               </div>
-              <span className="text-2xl font-bold">TechAcademy</span>
+              <span className="text-2xl font-bold">Cognista</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               India's leading platform for career transformation in AI, Data Science, and Technology. 
@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
 
             {/* WhatsApp Contact */}
             <WhatsAppButton 
-              message="Hi! I want to know more about TechAcademy courses and career opportunities."
+              message="Hi! I want to know more about Cognista courses and career opportunities."
               className="px-4 py-2 rounded-lg w-full justify-center"
             >
               <span>Connect on WhatsApp</span>
@@ -172,7 +172,7 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2025 TechAcademy. All rights reserved. | Transforming careers since 2020
+              © 2025 Cognista. All rights reserved. | Transforming careers since 2020
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
