@@ -10,7 +10,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
 
   const testimonials = [
     {
-      name: 'Rahul S',
+      name: 'Vasu S',
       course: 'Master of Data Science',
       previousRole: 'Marketing Executive',
       currentRole: 'Data Scientist at TCS',
@@ -60,7 +60,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       rating: 5
     },
     {
-      name: 'Vasu Dhevan S',
+      name: 'Jasmine A',
       course: 'Master of Data Science',
       previousRole: 'Teacher',
       currentRole: 'Data Scientist at Cognizant',
