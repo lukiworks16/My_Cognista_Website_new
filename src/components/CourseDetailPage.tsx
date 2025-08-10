@@ -197,18 +197,18 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'data-analyst': {
-      title: 'Master Of Data Analyst',
+      title: 'Master Of Data Analytics',
       subtitle: 'Analyze business data and create visualizations for strategic decisions',
-      duration: '6 Months',
+      duration: '3 Months',
       icon: BarChart,
       color: 'from-green-500 to-teal-500',
       image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹80,000',
-      originalPrice: '₹1,20,000',
+      price: '₹29,999',
+      originalPrice: '₹59,999,00',
       rating: 4.7,
       students: '4,100+',
       overview: {
-        description: 'Master data analysis and visualization to support business decision-making. Learn to work with databases, create compelling visualizations, and communicate insights effectively.',
+        description: 'Master of data analytics and visualization to support business decision-making. Learn to work with databases, create compelling visualizations, and communicate insights effectively.',
         highlights: [
           'SQL Database Management',
           'Excel Advanced Analytics',
@@ -235,37 +235,37 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           },
           {
             title: 'SQL Mastery',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Database Design', 'Complex Queries', 'Joins', 'Stored Procedures']
           },
           {
             title: 'Excel Advanced',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['Pivot Tables', 'Advanced Functions', 'VBA', 'Data Modeling']
           },
           {
             title: 'Tableau Visualization',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Chart Types', 'Dashboard Design', 'Calculated Fields', 'Advanced Analytics']
           },
           {
             title: 'Power BI Development',
-            duration: '5 weeks',
+            duration: '2 weeks',
             topics: ['Data Modeling', 'DAX', 'Power Query', 'Report Design']
           },
           {
             title: 'Statistical Analysis',
-            duration: '3 weeks',
+            duration: '1 weeks',
             topics: ['Descriptive Statistics', 'Hypothesis Testing', 'Regression', 'Correlation']
           },
           {
             title: 'Business Projects',
-            duration: '3 weeks',
+            duration: '1 weeks',
             topics: ['Sales Analysis', 'Marketing Analytics', 'Financial Reporting', 'Operations']
           }
         ]
       },
-      tools: ['SQL', 'Excel', 'Tableau', 'Power BI', 'Python', 'R', 'Google Analytics', 'SPSS'],
+      tools: ['SQL', 'Excel', 'Tableau', 'Power BI', 'Python', 'Google Analytics', 'SPSS'],
       projects: [
         'Sales Performance Dashboard',
         'Customer Segmentation Analysis',
@@ -283,14 +283,14 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'full-stack-python': {
-      title: 'Full Stack Python Developer',
+      title: 'Master Of Python Programming',
       subtitle: 'Build complete web applications from frontend to backend',
-      duration: '8 Months',
+      duration: '3 Months',
       icon: Code,
       color: 'from-orange-500 to-red-500',
       image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹1,00,000',
-      originalPrice: '₹1,40,000',
+      price: '₹29,999',
+      originalPrice: '₹49,999,00',
       rating: 4.8,
       students: '2,800+',
       overview: {
@@ -316,7 +316,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         modules: [
           {
             title: 'Python Fundamentals',
-            duration: '3 weeks',
+            duration: '1 weeks',
             topics: ['Python Syntax', 'OOP', 'Data Structures', 'File Handling']
           },
           {
@@ -326,27 +326,27 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           },
           {
             title: 'Django Backend',
-            duration: '8 weeks',
+            duration: '2 weeks',
             topics: ['Django Framework', 'Models', 'Views', 'Templates', 'REST APIs']
           },
           {
             title: 'Database Management',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['PostgreSQL', 'MongoDB', 'Database Design', 'ORM']
           },
           {
             title: 'React Frontend',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['React Components', 'State Management', 'Hooks', 'Redux']
           },
           {
             title: 'DevOps & Deployment',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Docker', 'AWS', 'CI/CD', 'Monitoring']
           },
           {
             title: 'Full Stack Project',
-            duration: '5 weeks',
+            duration: '1 weeks',
             topics: ['Project Planning', 'Development', 'Testing', 'Deployment']
           }
         ]
@@ -607,14 +607,14 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'tableau': {
-      title: 'Tableau Expert Certification',
+      title: 'Master Of Tableau ',
       subtitle: 'Master data visualization and create stunning interactive dashboards',
       duration: '3 Months',
       icon: Database,
       color: 'from-indigo-500 to-purple-500',
       image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹45,000',
-      originalPrice: '₹65,000',
+      price: '₹21,999',
+      originalPrice: '₹44,999,00',
       rating: 4.9,
       students: '1,800+',
       overview: {
