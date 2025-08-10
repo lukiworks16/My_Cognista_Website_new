@@ -10,75 +10,75 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
   const courses = [
     {
       id: 'master-ai',
-      title: 'Master in Artificial Intelligence',
-      duration: '12 Months',
+      title: 'Master Of Artificial Intelligence',
+      duration: '6 Months',
       icon: Brain,
       tools: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV'],
       outcomes: ['AI Engineer', 'ML Engineer', 'AI Researcher'],
       color: 'from-purple-500 to-pink-500',
       description: 'Build intelligent systems, neural networks, and machine learning models for real-world applications.',
-      price: '₹1,50,000',
-      originalPrice: '₹2,00,000'
+      price: '₹39,999,00',
+      originalPrice: '₹84,999,00'
     },
     {
       id: 'master-data-science',
-      title: 'Master in Data Science',
-      duration: '10 Months',
+      title: 'Master Of  Data Science',
+      duration: '3 Months',
       icon: BarChart,
-      tools: ['Python', 'R', 'Pandas', 'Scikit-learn'],
+      tools: ['Python', 'Numpy', 'Pandas', 'Scikit-learn'],
       outcomes: ['Data Scientist', 'ML Engineer', 'Data Analyst'],
       color: 'from-blue-500 to-cyan-500',
       description: 'Extract insights from complex data and build predictive models to drive business decisions.',
-      price: '₹1,20,000',
-      originalPrice: '₹1,60,000'
+      price: '₹34,999,00',
+      originalPrice: '₹79,999,00'
     },
     {
       id: 'data-analyst',
-      title: 'Data Analyst Professional',
-      duration: '6 Months',
+      title: 'Master Of Data Analytics',
+      duration: '3 Months',
       icon: BarChart,
       tools: ['SQL', 'Excel', 'Python', 'Tableau'],
       outcomes: ['Data Analyst', 'Business Analyst', 'BI Analyst'],
       color: 'from-green-500 to-teal-500',
       description: 'Analyze business data and create visualizations to support strategic decision-making.',
-      price: '₹80,000',
-      originalPrice: '₹1,20,000'
+      price: '₹29,999,00',
+      originalPrice: '₹59,999,00'
     },
     {
       id: 'full-stack-python',
-      title: 'Full Stack Python Developer',
-      duration: '8 Months',
+      title: 'Master Of Python Programming',
+      duration: '3 Months',
       icon: Code,
-      tools: ['Python', 'Django', 'React', 'PostgreSQL'],
+      tools: ['Python', 'Django', 'Flask', 'PostgreSQL'],
       outcomes: ['Full Stack Developer', 'Python Developer', 'Web Developer'],
       color: 'from-orange-500 to-red-500',
       description: 'Build complete web applications from frontend to backend using modern Python frameworks.',
-      price: '₹1,00,000',
-      originalPrice: '₹1,40,000'
+      price: '₹29,999,00',
+      originalPrice: '₹49,999,00'
     },
     {
       id: 'power-bi',
-      title: 'Power BI Professional',
+      title: 'Master Of Power BI',
       duration: '3 Months',
       icon: BarChart,
       tools: ['Power BI', 'DAX', 'Power Query', 'Excel'],
       outcomes: ['BI Developer', 'Data Analyst', 'BI Consultant'],
       color: 'from-yellow-500 to-orange-500',
       description: 'Create interactive dashboards and reports with Microsoft Power BI for business intelligence.',
-      price: '₹40,000',
-      originalPrice: '₹60,000'
+      price: '₹21,999,00',
+      originalPrice: '₹44,999,00'
     },
     {
       id: 'tableau',
-      title: 'Tableau Expert Certification',
+      title: 'Master Of Tableau',
       duration: '3 Months',
       icon: Database,
       tools: ['Tableau', 'SQL', 'Statistics', 'Analytics'],
       outcomes: ['Tableau Developer', 'Data Visualization Specialist', 'BI Analyst'],
       color: 'from-indigo-500 to-purple-500',
       description: 'Master data visualization and create stunning interactive dashboards with Tableau.',
-      price: '₹45,000',
-      originalPrice: '₹65,000'
+      price: '₹21,999,00',
+      originalPrice: '₹44,999,00'
     }
   ];
 
