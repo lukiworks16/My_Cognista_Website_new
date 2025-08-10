@@ -6,7 +6,7 @@ const WhatsAppChat: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
   // WhatsApp Business number - Replace with your actual WhatsApp Business number
-  const WHATSAPP_NUMBER = '+919876543210';
+  const WHATSAPP_NUMBER = '+918778315673';
 
   const chatOptions = [
     {
