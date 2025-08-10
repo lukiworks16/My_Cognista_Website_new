@@ -15,8 +15,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
       category: 'AI & Machine Learning',
       courses: [
         { name: 'Master Of Artificial Intelligence', duration: '6 Months', id: 'master-ai' },
-        { name: 'Machine Learning Specialist', duration: '3 Months', id: 'machine-learning' },
-        { name: 'Deep Learning Expert', duration: '3 Months', id: 'deep-learning' }
+        { name: 'Master Of Machine Learning', duration: '3 Months', id: 'machine-learning' },
+        { name: 'Master Of Deep Learning', duration: '3 Months', id: 'deep-learning' }
       ]
     },
     {
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
       courses: [
         { name: 'Master Of Data Science', duration: '3 Months', id: 'master-data-science' },
         { name: 'Master Of Data Analytics ', duration: '3 Months', id: 'data-analyst' },
-        { name: 'Business Intelligence', duration: '3 Months', id: 'business-intelligence' }
+        { name: 'Master Of Business Intelligence', duration: '3 Months', id: 'business-intelligence' }
       ]
     },
     {
