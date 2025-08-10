@@ -14,25 +14,25 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
     {
       category: 'AI & Machine Learning',
       courses: [
-        { name: 'Master Of Artificial Intelligence', duration: '6 Months', id: 'master-ai' },
-        { name: 'Master Of Machine Learning', duration: '3 Months', id: 'machine-learning' },
-        { name: 'Master Of Deep Learning', duration: '3 Months', id: 'deep-learning' }
+        { name: 'Master of Artificial Intelligence', duration: '6 Months', id: 'master-ai' },
+        { name: 'Master of Machine Learning', duration: '3 Months', id: 'machine-learning' },
+        { name: 'Master of Deep Learning', duration: '3 Months', id: 'deep-learning' }
       ]
     },
     {
       category: 'Data Science & Analytics',
       courses: [
-        { name: 'Master Of Data Science', duration: '3 Months', id: 'master-data-science' },
-        { name: 'Master Of Data Analytics ', duration: '3 Months', id: 'data-analyst' },
-        { name: 'Master Of Business Intelligence', duration: '3 Months', id: 'business-intelligence' }
+        { name: 'Master of Data Science', duration: '3 Months', id: 'master-data-science' },
+        { name: 'Master of Data Analytics ', duration: '3 Months', id: 'data-analyst' },
+        { name: 'Master of Business Intelligence', duration: '3 Months', id: 'business-intelligence' }
       ]
     },
     {
       category: 'Development & Tools',
       courses: [
-        { name: 'Master Of  Python Programming', duration: '3 Months', id: 'full-stack-python' },
-        { name: 'Master Of Power BI', duration: '3 Months', id: 'power-bi' },
-        { name: 'Master Of Tableau', duration: '3 Months', id: 'tableau' }
+        { name: 'Master of  Python Programming', duration: '3 Months', id: 'full-stack-python' },
+        { name: 'Master of Power BI', duration: '3 Months', id: 'power-bi' },
+        { name: 'Master of Tableau', duration: '3 Months', id: 'tableau' }
       ]
     }
   ];
