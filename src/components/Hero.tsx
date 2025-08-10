@@ -216,12 +216,12 @@ const Hero: React.FC<HeroProps> = ({ onOpenPopup }) => {
                       required
                     >
                       <option value="" className="text-gray-900">Select Preferred Course</option>
-                      <option value="ai" className="text-gray-900">Master in AI</option>
-                      <option value="datascience" className="text-gray-900">Master in Data Science</option>
-                      <option value="dataanalyst" className="text-gray-900">Data Analyst</option>
-                      <option value="fullstack" className="text-gray-900">Full Stack Python</option>
-                      <option value="powerbi" className="text-gray-900">Power BI</option>
-                      <option value="tableau" className="text-gray-900">Tableau</option>
+                      <option value="ai" className="text-gray-900">Master of Artificial Intelligence</option>
+                      <option value="datascience" className="text-gray-900">Master of Data Science</option>
+                      <option value="dataanalyst" className="text-gray-900">Master of Data Analyst</option>
+                      <option value="fullstack" className="text-gray-900">Master of Python Programming</option>
+                      <option value="powerbi" className="text-gray-900">Master of Power BI</option>
+                      <option value="tableau" className="text-gray-900">Master of Tableau</option>
                     </select>
                   </div>
                   <button
