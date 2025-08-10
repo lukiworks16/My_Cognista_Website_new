@@ -13,9 +13,9 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
 
   const courseData = {
     'master-ai': {
-      title: 'Master in Artificial Intelligence',
+      title: 'Master of Artificial Intelligence',
       subtitle: 'Build intelligent systems and neural networks for the future',
-      duration: '12 Months',
+      duration: '6 Months',
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
