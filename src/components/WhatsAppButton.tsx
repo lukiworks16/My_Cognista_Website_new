@@ -8,12 +8,12 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ 
-  message = 'Hi! I want to connect with TechAcademy team.',
+  message = 'Hi! I want to connect with Cognista team.',
   className = '',
   children 
 }) => {
   // WhatsApp Business number - Replace with your actual WhatsApp Business number
-  const WHATSAPP_NUMBER = '+919876543210';
+  const WHATSAPP_NUMBER = '+918778315673';
 
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(message);
