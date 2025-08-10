@@ -369,18 +369,18 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'machine-learning': {
-      title: 'Machine Learning Specialist',
+      title: 'Master Of Machine Learning',
       subtitle: 'Master machine learning algorithms and build predictive models',
-      duration: '8 Months',
+      duration: '3 Months',
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹90,000',
-      originalPrice: '₹1,30,000',
+      price: '₹29,999',
+      originalPrice: '₹69,999,00',
       rating: 4.8,
       students: '1,800+',
       overview: {
-        description: 'Specialize in machine learning with our focused 8-month program. Learn to build and deploy ML models that solve real business problems.',
+        description: 'Specialize in machine learning with our focused 3-month program. Learn to build and deploy ML models that solve real business problems.',
         highlights: [
           'Supervised & Unsupervised Learning',
           'Feature Engineering',
@@ -402,32 +402,32 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         modules: [
           {
             title: 'ML Fundamentals',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['Python for ML', 'Statistics', 'Linear Algebra', 'Probability']
           },
           {
             title: 'Supervised Learning',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Regression', 'Classification', 'Decision Trees', 'Ensemble Methods']
           },
           {
             title: 'Unsupervised Learning',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Clustering', 'Dimensionality Reduction', 'Association Rules', 'Anomaly Detection']
           },
           {
             title: 'Advanced ML',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Neural Networks', 'SVM', 'Gradient Boosting', 'Time Series']
           },
           {
             title: 'MLOps & Deployment',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Model Deployment', 'Monitoring', 'A/B Testing', 'CI/CD for ML']
           },
           {
             title: 'Capstone Project',
-            duration: '5 weeks',
+            duration: '2 weeks',
             topics: ['End-to-end ML Project', 'Model Optimization', 'Production Deployment', 'Presentation']
           }
         ]
@@ -450,18 +450,18 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'deep-learning': {
-      title: 'Deep Learning Expert',
+      title: 'Master Of Deep Learning',
       subtitle: 'Master neural networks and deep learning architectures',
-      duration: '6 Months',
+      duration: '3 Months',
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹70,000',
-      originalPrice: '₹1,00,000',
+      price: '₹29,999',
+      originalPrice: '₹59,999,00',
       rating: 4.9,
       students: '1,200+',
       overview: {
-        description: 'Become a deep learning expert with our intensive 6-month program. Master neural networks, CNNs, RNNs, and cutting-edge architectures.',
+        description: 'Become a deep learning expert with our intensive 3-month program. Master neural networks, CNNs, RNNs, and cutting-edge architectures.',
         highlights: [
           'Neural Network Architectures',
           'Computer Vision with CNNs',
@@ -483,32 +483,32 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         modules: [
           {
             title: 'Neural Network Basics',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['Perceptrons', 'Backpropagation', 'Activation Functions', 'Optimization']
           },
           {
             title: 'Convolutional Networks',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['CNNs', 'Image Classification', 'Object Detection', 'Transfer Learning']
           },
           {
             title: 'Recurrent Networks',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['RNNs', 'LSTMs', 'GRUs', 'Sequence Models']
           },
           {
             title: 'Advanced Architectures',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Transformers', 'Attention Mechanisms', 'BERT', 'GPT']
           },
           {
             title: 'Generative Models',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['GANs', 'VAEs', 'Diffusion Models', 'Style Transfer']
           },
           {
             title: 'Production DL',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Model Optimization', 'Deployment', 'Monitoring', 'Scaling']
           }
         ]
@@ -531,14 +531,14 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'business-intelligence': {
-      title: 'Business Intelligence Professional',
+      title: 'Master Of Business Intelligence',
       subtitle: 'Transform data into actionable business insights',
-      duration: '4 Months',
+      duration: '3 Months',
       icon: BarChart,
       color: 'from-blue-500 to-cyan-500',
       image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹60,000',
-      originalPrice: '₹90,000',
+      price: '₹24,999',
+      originalPrice: '₹54,999,00',
       rating: 4.7,
       students: '1,500+',
       overview: {
@@ -569,17 +569,17 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           },
           {
             title: 'Data Modeling',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['Star Schema', 'Snowflake Schema', 'Dimensional Modeling', 'Data Marts']
           },
           {
             title: 'ETL Development',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Data Extraction', 'Transformation Logic', 'Data Loading', 'SSIS/Talend']
           },
           {
             title: 'Visualization Tools',
-            duration: '4 weeks',
+            duration: '3 weeks',
             topics: ['Power BI Advanced', 'Tableau', 'QlikView', 'Dashboard Design']
           },
           {
@@ -589,7 +589,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           }
         ]
       },
-      tools: ['Power BI', 'Tableau', 'SQL Server', 'SSIS', 'Excel', 'QlikView', 'Python', 'R'],
+      tools: ['Power BI', 'Tableau', 'SQL Server','Excel', 'QlikView', 'Python', 'R'],
       projects: [
         'Executive Dashboard Suite',
         'Sales Performance Analytics',
@@ -683,14 +683,14 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'power-bi': {
-      title: 'Power BI Professional',
+      title: 'Master Of Power BI',
       subtitle: 'Create interactive dashboards and reports with Microsoft Power BI',
       duration: '3 Months',
       icon: BarChart,
       color: 'from-yellow-500 to-orange-500',
       image: 'https://images.pexels.com/photos/669619/pexels-photo-669619.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹40,000',
-      originalPrice: '₹60,000',
+      price: '₹21,999',
+      originalPrice: '₹44,999,00',
       rating: 4.8,
       students: '2,200+',
       overview: {
