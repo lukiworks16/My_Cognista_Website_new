@@ -12,7 +12,7 @@ const FAQ: React.FC<FAQProps> = ({ onOpenPopup }) => {
   const faqs = [
     {
       question: "What is the best course to become a Data Scientist?",
-      answer: "Our Master in Data Science program is comprehensive and industry-focused. It covers Python programming, machine learning, statistics, data visualization, and real-world projects. The program includes 1:1 mentorship, hands-on projects, and guaranteed placement assistance. Most graduates land roles at top companies like Google, Microsoft, and Amazon."
+      answer: "Our Master of Data Science program is comprehensive and industry-focused. It covers Python programming, machine learning, statistics, data visualization, and real-world projects. The program includes 1:1 mentorship, hands-on projects, and guaranteed placement assistance. Most graduates land roles at top companies like Google, Microsoft, and Amazon."
     },
     {
       question: "How does this AI course compare with others in the market?",
@@ -32,7 +32,7 @@ const FAQ: React.FC<FAQProps> = ({ onOpenPopup }) => {
     },
     {
       question: "How long does it take to complete the courses?",
-      answer: "Course duration varies: Data Analyst (6 months), Full Stack Python (8 months), Master in Data Science (10 months), Master in AI (12 months), Power BI (3 months), and Tableau (3 months). All courses are designed to fit working professionals with flexible schedules including evening and weekend batches."
+      answer: "Course duration varies: Master of Data Analyst (3 months), Python Programming(3 months), Master of Data Science (3 months), Master in AI (6 months), Power BI (3 months), and Tableau (3 months). All courses are designed to fit working professionals with flexible schedules including evening and weekend batches."
     },
     {
       question: "What kind of projects will I work on during the course?",
@@ -48,7 +48,7 @@ const FAQ: React.FC<FAQProps> = ({ onOpenPopup }) => {
     },
     {
       question: "How is the mentorship structured? Will I get personal attention?",
-      answer: "Every student gets a dedicated 1:1 mentor who is an industry professional from companies like Google, Meta, Microsoft, etc. You'll have weekly mentorship calls, project reviews, career guidance, and ongoing support throughout your journey. This personal attention ensures you're never stuck and always progressing."
+      answer: "Every student gets a dedicated 1:1 mentor who is an industry professional from companies like TCS, Wipro, Cognizant, etc. You'll have weekly mentorship calls, project reviews, career guidance, and ongoing support throughout your journey. This personal attention ensures you're never stuck and always progressing."
     }
   ];
 
