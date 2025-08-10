@@ -56,7 +56,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       currentRole: 'Python Developer at Wipro',
       salary: '₹10 LPA',
       image: 'https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=400',
-      testimonial: "At 35, I thought it was too late to switch careers. TechAcademy proved me wrong! The supportive community and practical projects gave me confidence to make the leap.",
+      testimonial: "At 35, I thought it was too late to switch careers. Cognista proved me wrong! The supportive community and practical projects gave me confidence to make the leap.",
       rating: 5
     },
     {
