@@ -29,12 +29,14 @@ const BookCallPopup: React.FC<BookCallPopupProps> = ({ isOpen, onClose }) => {
   ];
 
   const courses = [
-    'Master in AI',
-    'Master in Data Science',
-    'Data Analyst',
-    'Full Stack Python',
-    'Power BI',
-    'Tableau'
+    'Master of Artificial Intelligence',
+    'Master of Data Science',
+    'Master Of Data Analyst',
+    'Master of Python Programming',
+    'Master of Power BI',
+    'Master of Tableau'
+    'Master of Machine learning'
+    'Master of Deep Learning'
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
