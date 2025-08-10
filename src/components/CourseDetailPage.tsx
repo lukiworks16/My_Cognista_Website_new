@@ -13,7 +13,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
 
   const courseData = {
     'master-ai': {
-      title: 'Master Of Artificial Intelligence',
+      title: 'Master of Artificial Intelligence',
       subtitle: 'Build intelligent systems and neural networks for the future',
       duration: '6 Months',
       icon: Brain,
@@ -105,7 +105,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'master-data-science': {
-      title: 'Master Of Data Science',
+      title: 'Master of Data Science',
       subtitle: 'Extract insights from complex data and drive business decisions',
       duration: '3 Months',
       icon: BarChart,
@@ -197,7 +197,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'data-analyst': {
-      title: 'Master Of Data Analytics',
+      title: 'Master of Data Analytics',
       subtitle: 'Analyze business data and create visualizations for strategic decisions',
       duration: '3 Months',
       icon: BarChart,
@@ -283,7 +283,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'full-stack-python': {
-      title: 'Master Of Python Programming',
+      title: 'Master of Python Programming',
       subtitle: 'Build complete web applications from frontend to backend',
       duration: '3 Months',
       icon: Code,
@@ -369,7 +369,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'machine-learning': {
-      title: 'Master Of Machine Learning',
+      title: 'Master of Machine Learning',
       subtitle: 'Master machine learning algorithms and build predictive models',
       duration: '3 Months',
       icon: Brain,
@@ -450,7 +450,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'deep-learning': {
-      title: 'Master Of Deep Learning',
+      title: 'Master of Deep Learning',
       subtitle: 'Master neural networks and deep learning architectures',
       duration: '3 Months',
       icon: Brain,
@@ -531,7 +531,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'business-intelligence': {
-      title: 'Master Of Business Intelligence',
+      title: 'Master of Business Intelligence',
       subtitle: 'Transform data into actionable business insights',
       duration: '3 Months',
       icon: BarChart,
@@ -607,7 +607,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'tableau': {
-      title: 'Master Of Tableau ',
+      title: 'Master of Tableau ',
       subtitle: 'Master data visualization and create stunning interactive dashboards',
       duration: '3 Months',
       icon: Database,
@@ -683,7 +683,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'power-bi': {
-      title: 'Master Of Power BI',
+      title: 'Master of Power BI',
       subtitle: 'Create interactive dashboards and reports with Microsoft Power BI',
       duration: '3 Months',
       icon: BarChart,
