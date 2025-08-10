@@ -13,18 +13,18 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
 
   const courseData = {
     'master-ai': {
-      title: 'Master of Artificial Intelligence',
+      title: 'Master Of Artificial Intelligence',
       subtitle: 'Build intelligent systems and neural networks for the future',
       duration: '6 Months',
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹50,000',
-      originalPrice: '₹1,00,000',
+      price: '₹39,999',
+      originalPrice: '₹84,999,00',
       rating: 4.9,
       students: '2,500+',
       overview: {
-        description: 'Master the art of Artificial Intelligence with our comprehensive 12-month program. Learn to build intelligent systems, neural networks, and cutting-edge AI applications that solve real-world problems.',
+        description: 'Master the art of Artificial Intelligence with our comprehensive 6-month program. Learn to build intelligent systems, neural networks, and cutting-edge AI applications that solve real-world problems.',
         highlights: [
           'Deep Learning & Neural Networks',
           'Computer Vision & NLP',
@@ -46,37 +46,37 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         modules: [
           {
             title: 'AI Fundamentals',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['Introduction to AI', 'Python for AI', 'Mathematics for AI', 'Statistics & Probability']
           },
           {
             title: 'Machine Learning Mastery',
-            duration: '8 weeks',
+            duration: '4 weeks',
             topics: ['Supervised Learning', 'Unsupervised Learning', 'Reinforcement Learning', 'Model Evaluation']
           },
           {
             title: 'Deep Learning',
-            duration: '10 weeks',
+            duration: '4 weeks',
             topics: ['Neural Networks', 'CNNs', 'RNNs', 'Transformers', 'GANs']
           },
           {
             title: 'Computer Vision',
-            duration: '6 weeks',
+            duration: '4 weeks',
             topics: ['Image Processing', 'Object Detection', 'Face Recognition', 'Medical Imaging']
           },
           {
             title: 'Natural Language Processing',
-            duration: '6 weeks',
+            duration: '4 weeks',
             topics: ['Text Processing', 'Sentiment Analysis', 'Chatbots', 'Language Models']
           },
           {
             title: 'AI in Production',
-            duration: '8 weeks',
+            duration: '4 weeks',
             topics: ['MLOps', 'Model Deployment', 'Scaling AI', 'AI Ethics']
           },
           {
             title: 'Capstone Project',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Project Planning', 'Implementation', 'Testing', 'Presentation']
           }
         ]
@@ -105,14 +105,14 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'master-data-science': {
-      title: 'Master in Data Science',
+      title: 'Master Of Data Science',
       subtitle: 'Extract insights from complex data and drive business decisions',
-      duration: '10 Months',
+      duration: '3 Months',
       icon: BarChart,
       color: 'from-blue-500 to-cyan-500',
       image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹1,20,000',
-      originalPrice: '₹1,60,000',
+      price: '₹34,999',
+      originalPrice: '₹79,999,00',
       rating: 4.8,
       students: '3,200+',
       overview: {
@@ -138,42 +138,42 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         modules: [
           {
             title: 'Data Science Foundations',
-            duration: '3 weeks',
+            duration: '2 weeks',
             topics: ['Python Programming', 'Statistics', 'Data Types', 'Research Methods']
           },
           {
             title: 'Data Analysis & Visualization',
-            duration: '6 weeks',
+            duration: '2 weeks',
             topics: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Plotly']
           },
           {
             title: 'Machine Learning',
-            duration: '8 weeks',
+            duration: '2 weeks',
             topics: ['Supervised Learning', 'Unsupervised Learning', 'Model Selection', 'Feature Engineering']
           },
           {
             title: 'Advanced Analytics',
-            duration: '6 weeks',
+            duration: '1 weeks',
             topics: ['Time Series', 'A/B Testing', 'Causal Inference', 'Bayesian Methods']
           },
           {
             title: 'Big Data & Cloud',
-            duration: '5 weeks',
+            duration: '2 weeks',
             topics: ['Spark', 'Hadoop', 'AWS', 'Azure', 'Google Cloud']
           },
           {
             title: 'Business Intelligence',
-            duration: '4 weeks',
+            duration: '2 weeks',
             topics: ['SQL', 'Tableau', 'Power BI', 'Dashboard Design']
           },
           {
             title: 'Capstone Project',
-            duration: '8 weeks',
+            duration: '2 weeks',
             topics: ['Project Planning', 'Data Collection', 'Analysis', 'Presentation']
           }
         ]
       },
-      tools: ['Python', 'R', 'SQL', 'Tableau', 'Power BI', 'Spark', 'Hadoop', 'AWS', 'Pandas', 'Scikit-learn'],
+      tools: ['Python', 'R', 'SQL', 'Tableau', 'Power BI', 'Spark', 'Numpy', 'Pandas', 'Scikit-learn'],
       projects: [
         'Customer Churn Prediction Model',
         'Sales Forecasting Dashboard',
@@ -197,7 +197,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ]
     },
     'data-analyst': {
-      title: 'Data Analyst Professional',
+      title: 'Master Of Data Analyst',
       subtitle: 'Analyze business data and create visualizations for strategic decisions',
       duration: '6 Months',
       icon: BarChart,
