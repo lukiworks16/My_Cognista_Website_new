@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, text: '+91-8778315673', href: 'tel:+918778315673' },
+    { icon: Phone, text: '+91-87783 15673', href: 'tel:+918778315673' },
     { icon: Mail, text: 'support@cognista.com', href: 'mailto:support@cognista.com' },
     { icon: MapPin, text: 'Bangalore, Chennai , Vellore , Madurai', href: '#' }
   ];
