@@ -34,8 +34,8 @@ const BookCallPopup: React.FC<BookCallPopupProps> = ({ isOpen, onClose }) => {
     'Master Of Data Analyst',
     'Master of Python Programming',
     'Master of Power BI',
-    'Master of Tableau'
-    'Master of Machine learning'
+    'Master of Tableau',
+    'Master of Machine learning',
     'Master of Deep Learning'
   ];
 
