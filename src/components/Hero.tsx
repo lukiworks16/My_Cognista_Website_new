@@ -110,9 +110,9 @@ const Hero: React.FC<HeroProps> = ({ onOpenPopup }) => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Future-Proof Your Career with{' '}
+                Launch a Future-Proof Career with{' '}
                 <span className="bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
-                  Top Tech Programs
+                  Cognista Expert-Led Courses
                 </span>
               </h1>
               <p className="text-xl text-gray-200 leading-relaxed">
