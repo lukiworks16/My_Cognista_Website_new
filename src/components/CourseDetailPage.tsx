@@ -202,7 +202,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       duration: '3 Months',
       icon: BarChart,
       color: 'from-green-500 to-teal-500',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-H1EQ4e2-pC2Td1tug0jrmQgH0xjYhoIB9w&s?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZNgnmhyomvo4La8Td1kkih-vuU2arDVG1vQ&s?auto=compress&cs=tinysrgb&w=1200',
       price: '₹29,999',
       originalPrice: '₹59,999,00',
       rating: 4.7,
