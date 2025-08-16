@@ -34,12 +34,12 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           'Industry Capstone Projects'
         ],
         outcomes: [
-          'AI Engineer at top tech companies',
+          'AI Engineer',
           'Machine Learning Engineer',
-          'AI Research Scientist',
+          'Data Scientist',
           'Computer Vision Engineer',
           'NLP Engineer',
-          'AI Product Manager'
+          'Automation & Robotics Engineer'
         ]
       },
       curriculum: {
@@ -83,11 +83,11 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       },
       tools: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV', 'NLTK', 'Scikit-learn', 'Keras', 'Pandas', 'NumPy', 'Jupyter'],
       projects: [
-        'AI-Powered Recommendation System',
-        'Computer Vision for Medical Diagnosis',
-        'Chatbot with Natural Language Understanding',
-        'Autonomous Vehicle Navigation System',
-        'AI-Based Financial Trading Bot'
+        'AI-Driven Customer Support Chatbot for E-commerce',
+        'Computer Vision System for Defect Detection in Manufacturing',
+        'Fraud Detection Model for Financial Transactions',
+        'Predictive Maintenance System for Industrial Equipment',
+        'Personalized Healthcare Recommendation Engine'
       ],
       mentors: [
         {
