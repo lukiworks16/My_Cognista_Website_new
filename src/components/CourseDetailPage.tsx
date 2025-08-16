@@ -202,7 +202,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       duration: '3 Months',
       icon: BarChart,
       color: 'from-green-500 to-teal-500',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZNgnmhyomvo4La8Td1kkih-vuU2arDVG1vQ&s?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://assets.datamation.com/uploads/2023/08/dm08172023-what-is-data-analytics.png?auto=compress&cs=tinysrgb&w=1200',
       price: '₹29,999',
       originalPrice: '₹59,999,00',
       rating: 4.7,
