@@ -25,7 +25,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'Content Writer',
       currentRole: 'Software Engineer at HCL',
       salary: '₹8 LPA',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "The curriculum was so well-structured and practical. My mentor helped me build amazing projects that impressed recruiters. The career support team was with me throughout the job search.",
       rating: 5
     },
@@ -35,7 +35,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'Mechanical Engineer',
       currentRole: 'ML Engineer at Amazon',
       salary: '₹12 LPA',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "Coming from mechanical engineering, I was worried about transitioning to AI. But the beginner-friendly approach and 1:1 mentoring made it smooth. Now I'm working on cutting-edge AI at Meta!",
       rating: 5
     },
@@ -45,7 +45,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'HR Executive',
       currentRole: 'Data Analyst at Cognizant',
       salary: '₹12 LPA',
-      image: 'https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "The Power BI and Tableau training was exceptional. I built a portfolio of 5+ dashboards that got me interviews at top companies. The placement assistance was phenomenal!",
       rating: 5
     },
@@ -55,7 +55,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'Sales Manager',
       currentRole: 'Python Developer at Wipro',
       salary: '₹10 LPA',
-      image: 'https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "At 35, I thought it was too late to switch careers. Cognista proved me wrong! The supportive community and practical projects gave me confidence to make the leap.",
       rating: 5
     },
@@ -65,7 +65,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'Teacher',
       currentRole: 'Data Scientist at Cognizant',
       salary: '₹14 LPA',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "The transition from teaching to data science felt natural with TechAcademy's approach. The real-world projects and mentorship prepared me perfectly for the industry challenges.",
       rating: 5
     }
