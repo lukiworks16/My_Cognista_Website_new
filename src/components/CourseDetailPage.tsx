@@ -89,20 +89,20 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
         'Autonomous Vehicle Navigation System',
         'AI-Based Financial Trading Bot'
       ],
-      mentors: [
-        {
-          name: 'Dr. Sarah Chen',
-          designation: 'Senior AI Researcher',
-          company: 'Google DeepMind',
-          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
-        },
-        {
-          name: 'Michael Rodriguez',
-          designation: 'Principal ML Engineer',
-          company: 'Meta',
-          image: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=400'
-        }
-      ]
+      //mentors: [
+        //{
+          //name: 'Dr. Sarah Chen',
+          //designation: 'Senior AI Researcher',
+          //company: 'Google DeepMind',
+          //image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+        //},
+        //{
+          //name: 'Michael Rodriguez',
+          //designation: 'Principal ML Engineer',
+          //company: 'Meta',
+          //image: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=400'
+       // }
+      //]
     },
     'master-data-science': {
       title: 'Master of Data Science',
