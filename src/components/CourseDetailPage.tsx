@@ -18,7 +18,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       duration: '6 Months',
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://urbeuniversity.edu/post_assets/Le9zsr8bQmv7gmZW40UXiVaPsGcpVwaY65mw28tU.webp?auto=compress&cs=tinysrgb&w=1200',
       price: '₹39,999',
       originalPrice: '₹84,999,00',
       rating: 4.9,
