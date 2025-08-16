@@ -126,7 +126,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           'Real-world Industry Projects'
         ],
         outcomes: [
-          'Data Scientist at Fortune 500 companies',
+          'Data Scientist',
           'Machine Learning Engineer',
           'Data Analyst',
           'Business Intelligence Analyst',
@@ -175,11 +175,11 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       },
       tools: ['Python', 'R', 'SQL', 'Tableau', 'Power BI', 'Spark', 'Numpy', 'Pandas', 'Scikit-learn'],
       projects: [
-        'Customer Churn Prediction Model',
-        'Sales Forecasting Dashboard',
-        'Market Basket Analysis',
-        'Fraud Detection System',
-        'Social Media Sentiment Analysis'
+        'Customer Lifetime Value Prediction for E-commerce',
+        'Credit Risk Scoring System for Financial Institutions',
+        'Predictive Maintenance for Manufacturing Equipment',
+        'Real-Time Stock Price Trend Analysis',
+        'Patient Readmission Risk Prediction in Healthcare'
       ],
       mentors: [
         {
@@ -267,11 +267,11 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       },
       tools: ['SQL', 'Excel', 'Tableau', 'Power BI', 'Python', 'Google Analytics', 'SPSS'],
       projects: [
-        'Sales Performance Dashboard',
-        'Customer Segmentation Analysis',
-        'Financial KPI Reporting',
-        'Marketing Campaign Analysis',
-        'Inventory Optimization Study'
+        'E-commerce Sales Performance Dashboard Using Power BI',
+        'Customer Segmentation Analysis for Retail Targeting',
+        'Financial KPI Dashboard for Executive Reporting',
+        'Marketing Campaign Performance & ROI Analysis',
+        'Inventory Optimization and Stock Replenishment Insights'
       ],
       mentors: [
         {
@@ -353,11 +353,11 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       },
       tools: ['Python', 'Django', 'React', 'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'Git', 'Redis'],
       projects: [
-        'E-commerce Platform',
-        'Social Media Application',
-        'Task Management System',
-        'Real-time Chat Application',
-        'Content Management System'
+        'E-commerce Backend System with Django & REST API',
+        'Social Media Analytics Tool Using Python and Twitter API',
+        'Task Automation Platform Using Python and Celery',
+        'Real-Time Chat Application Using Django Channels and WebSockets',
+        'Dynamic Content Management System with Flask and SQLite'
       ],
       mentors: [
         {
@@ -434,11 +434,11 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       },
       tools: ['Python', 'Scikit-learn', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'MLflow', 'Docker'],
       projects: [
-        'Customer Churn Prediction',
-        'Recommendation System',
-        'Fraud Detection Model',
-        'Price Optimization Engine',
-        'Demand Forecasting System'
+         'Customer Churn Prediction Model for Telecom Industry',
+         'Personalized Product Recommendation System for E-commerce',
+         'Financial Fraud Detection Engine Using Anomaly Detection',
+         'Dynamic Price Optimization System for Online Retail',
+         'Demand Forecasting Model for Inventory Management'
       ],
       mentors: [
         {
