@@ -17,12 +17,12 @@ const CurriculumDownloadPopup: React.FC<CurriculumDownloadPopupProps> = ({ isOpe
   const [isDownloading, setIsDownloading] = useState(false);
 
   const courses = [
-    { name: 'Master in AI', file: 'https://drive.google.com/file/d/1example-ai-curriculum/view?usp=sharing' },
-    { name: 'Master in Data Science', file: 'https://drive.google.com/file/d/1example-ds-curriculum/view?usp=sharing' },
-    { name: 'Data Analyst', file: 'https://drive.google.com/file/d/1example-da-curriculum/view?usp=sharing' },
-    { name: 'Full Stack Python', file: 'https://drive.google.com/file/d/1example-fs-curriculum/view?usp=sharing' },
-    { name: 'Power BI', file: 'https://drive.google.com/file/d/1example-pbi-curriculum/view?usp=sharing' },
-    { name: 'Tableau', file: 'https://drive.google.com/file/d/1example-tableau-curriculum/view?usp=sharing' }
+    { name: 'Master in AI', file: 'https://drive.google.com/file/d/1zc1u4UZjneMuzeSvF8Oj4C1VrpSZ6wpk/view?usp=drive_link' },
+    { name: 'Master in Data Science', file: 'https://drive.google.com/file/d/1BWCjhfGyxorswKcRc1_ZXrXMkq8HCJ2L/view?usp=drive_link' },
+    { name: 'Data Analyst', file: 'https://drive.google.com/file/d/1rvVbtnpGSpXcrumvbIEPsscphuTmL9B5/view?usp=drive_link' },
+    { name: 'Full Stack Python', file: 'https://drive.google.com/file/d/1sqQWba5gaYO4bNVofUk42QmS0mtoBMVP/view?usp=drive_link' },
+    { name: 'Power BI', file: 'https://drive.google.com/file/d/1mVVq3-iqcAi8MojJVzrZn7zptEz0N-zl/view?usp=drive_link' },
+    { name: 'Tableau', file: 'https://drive.google.com/file/d/1cO6dBHTmo0R4urrALFPplWkm65bhuOL2/view?usp=drive_link' }
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
