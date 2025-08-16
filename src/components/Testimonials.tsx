@@ -15,7 +15,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ onOpenPopup }) => {
       previousRole: 'Marketing Executive',
       currentRole: 'Data Scientist at TCS',
       salary: '₹16 LPA',
-      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn-icons-png.flaticon.com/512/8214/8214212.png?auto=compress&cs=tinysrgb&w=400',
       testimonial: "Cognista transformed my career completely. The mentorship was incredible and the projects were exactly what industry needed. I went from marketing to data science in just 8 months!",
       rating: 5
     },
