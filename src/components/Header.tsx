@@ -153,8 +153,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
               )}
             </div>
 
-             <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
-              Mentors
+            <a href="#internships" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
+              Internships
             </a>
             <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Success Stories
@@ -269,8 +269,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
                 )}
               </div>
 
-              <a href="#mentors" className="text-gray-700 hover:text-purple-600 font-medium">
-                Mentors
+              <a href="#internships" className="text-gray-700 hover:text-purple-600 font-medium">
+                Internships
               </a>
               <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium">
                 Success Stories
