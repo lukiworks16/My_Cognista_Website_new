@@ -69,7 +69,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
   <img 
     src="/image.png"   // or .png if you exported it
     alt="Cognista Logo"
-    className="h-12 w-auto"        // adjust size (h-12 ≈ old logo height)
+    className="h-16 w-auto"        // adjust size (h-12 ≈ old logo height)
   />
 </div>
 
