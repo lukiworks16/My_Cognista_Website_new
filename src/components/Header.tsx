@@ -4,9 +4,10 @@ import WhatsAppButton from './WhatsAppButton';
 
 interface HeaderProps {
   onOpenCourseDetail: (courseId: string) => void;
+  onOpenInternshipDetail: (internshipId: string) => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
+const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDetail }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -162,6 +163,12 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail }) => {
             <a href="#internships" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Internships
             </a>
+            <button 
+              onClick={() => onOpenInternshipDetail('all-internships')}
+              className="text-gray-700 hover:text-purple-600 font-medium transition-colors"
+            >
+              View All Internships
+            </button>
             <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Success Stories
             </a>

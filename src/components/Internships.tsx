@@ -3,9 +3,10 @@ import { Briefcase, MapPin, Clock, Users, Star, ExternalLink, Calendar, Building
 
 interface InternshipsProps {
   onOpenPopup: (popupType: string) => void;
+  onOpenInternshipDetail: (internshipId: string) => void;
 }
 
-const Internships: React.FC<InternshipsProps> = ({ onOpenPopup }) => {
+const Internships: React.FC<InternshipsProps> = ({ onOpenPopup, onOpenInternshipDetail }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   const internshipPrograms = [
@@ -264,11 +265,11 @@ const Internships: React.FC<InternshipsProps> = ({ onOpenPopup }) => {
 
                 {/* Apply Button */}
                 <button 
-                  onClick={handleApplyClick}
+                  onClick={() => onOpenInternshipDetail(program.id.toString())}
                   className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all transform group-hover:scale-105 flex items-center justify-center space-x-2"
                 >
-                  <span>Apply Now</span>
-                  <ExternalLink className="h-4 w-4" />
+                  <span>View Details</span>
+                  <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
             </div>
