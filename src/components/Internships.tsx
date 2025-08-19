@@ -80,7 +80,7 @@ const Internships: React.FC<InternshipsProps> = ({ onOpenPopup }) => {
     {
       id: 5,
       title: 'Data Analytics Internship',
-      company: 'J2L Teechnologies',
+      company: 'J2L Technologies',
       location: 'Bangalore, India',
       duration: '1/2/3/6 Months',
       type: 'Paid',
@@ -98,7 +98,7 @@ const Internships: React.FC<InternshipsProps> = ({ onOpenPopup }) => {
       id: 6,
       title: 'Cybersecurity Internship',
       company: 'J2L Technologies',
-      location: 'bangalore, India',
+      location: 'Bangalore, India',
       duration: '1/2/3/6 Months',
       type: 'Paid',
       stipend: '*',
