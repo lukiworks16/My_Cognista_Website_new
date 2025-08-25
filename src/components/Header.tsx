@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
   <img 
     src="/image.png"   // or .png if you exported it
     alt="Cognista Logo"
-    className="h-16 w-auto"        // adjust size (h-12 ≈ old logo height)
+    className="h-20 w-auto"        // adjust size (h-12 ≈ old logo height)
   />
 </div>
 
@@ -163,12 +163,12 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
             <a href="#internships" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Internships
             </a>
-            <button 
+{/*             <button 
               onClick={() => onOpenInternshipDetail('all-internships')}
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors"
             >
               View All Internships
-            </button>
+            </button> */}
             <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Success Stories
             </a>
@@ -176,13 +176,13 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
               FAQ
             </a>
            
-                    <a
+{/*                     <a
                       href="#courses"
                       className="text-purple-600 font-semibold hover:text-purple-700 transition-colors"
                     >
                       ViewCourses
                     </a>
-                  
+                   */}
             
           </nav>
 
@@ -207,12 +207,12 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
     <span>Book Free Call</span>
   </a>
 
-  {/* Login Button (unchanged) */}
+{/*   {/* Login Button (unchanged) */}
   <button className="flex items-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
     <User className="h-4 w-4" />
     <span>Login</span>
   </button>
-</div>
+</div> */}
 
 
           {/* Mobile Menu Button */}
