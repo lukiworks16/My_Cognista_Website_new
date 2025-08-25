@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Menu, X, Brain, Phone, User, ChevronDown, Download, Calendar, MessageCircle } from 'lucide-react';
-import WhatsAppButton from './WhatsAppButton';
+import { Menu, X, Phone, User, ChevronDown, Calendar, MessageCircle } from 'lucide-react';
 
 interface HeaderProps {
   onOpenCourseDetail: (courseId: string) => void;
-  onOpenInternshipDetail: (internshipId: string) => void;
+  onOpenInternshipDetail: (internshipId: string) => void; // kept for API compatibility
 }
 
-const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDetail }) => {
+const Header: React.FC<HeaderProps> = (props) => {
+  const { onOpenCourseDetail } = props; // avoid unused var error for onOpenInternshipDetail
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -53,47 +53,41 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
     onOpenCourseDetail(courseId);
     setActiveDropdown(null);
     setIsMenuOpen(false);
-
-    
   };
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-
-         {/* Logo */}
-<div 
-  className="flex items-center cursor-pointer" 
-  onClick={() => window.location.reload()}
->
-  <img 
-    src="/image.png"   // or .png if you exported it
-    alt="Cognista Logo"
-    className="h-20 w-auto"        // adjust size (h-12 ≈ old logo height)
-  />
-</div>
-
-
-
+          {/* Logo */}
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => window.location.reload()}
+          >
+            <img
+              src="/image.png"
+              alt="Cognista Logo"
+              className="h-20 w-auto"
+            />
+            {/* Adjust size if needed: h-12, h-16, etc. */}
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {/* Courses Dropdown */}
-            <div className="relative group">
+            <div className="relative"
+                 onMouseEnter={() => setActiveDropdown('courses')}
+                 onMouseLeave={() => setActiveDropdown(null)}>
               <button
                 className="flex items-center space-x-1 text-gray-700 hover:text-purple-600 font-medium transition-colors"
-                onMouseEnter={() => setActiveDropdown('courses')}
+                type="button"
               >
                 <span>Courses</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
-              
+
               {activeDropdown === 'courses' && (
-                <div
-                  className="absolute top-full left-0 mt-2 w-96 bg-white rounded-xl shadow-2xl border border-gray-100 p-6 z-50"
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <div className="absolute top-full left-0 mt-2 w-96 bg-white rounded-xl shadow-2xl border border-gray-100 p-6 z-50">
                   {coursesMenu.map((category, index) => (
                     <div key={index} className="mb-6 last:mb-0">
                       <h3 className="text-sm font-bold text-purple-600 mb-3 uppercase tracking-wide">
@@ -105,6 +99,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
                             key={courseIndex}
                             onClick={() => handleCourseClick(course.id)}
                             className="flex justify-between items-center p-2 rounded-lg hover:bg-purple-50 transition-colors group w-full text-left"
+                            type="button"
                           >
                             <div>
                               <div className="font-medium text-gray-900 group-hover:text-purple-600">
@@ -130,20 +125,19 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
             </div>
 
             {/* Services Dropdown */}
-            <div className="relative group">
+            <div className="relative"
+                 onMouseEnter={() => setActiveDropdown('services')}
+                 onMouseLeave={() => setActiveDropdown(null)}>
               <button
                 className="flex items-center space-x-1 text-gray-700 hover:text-purple-600 font-medium transition-colors"
-                onMouseEnter={() => setActiveDropdown('services')}
+                type="button"
               >
                 <span>Services</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
-              
+
               {activeDropdown === 'services' && (
-                <div
-                  className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 p-4 z-50"
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 p-4 z-50">
                   {servicesMenu.map((service, index) => (
                     <a
                       key={index}
@@ -163,62 +157,51 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
             <a href="#internships" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Internships
             </a>
-{/*             <button 
-              onClick={() => onOpenInternshipDetail('all-internships')}
-              className="text-gray-700 hover:text-purple-600 font-medium transition-colors"
-            >
-              View All Internships
-            </button> */}
             <a href="#success" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               Success Stories
             </a>
             <a href="#faq" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">
               FAQ
             </a>
-           
-{/*                     <a
-                      href="#courses"
-                      className="text-purple-600 font-semibold hover:text-purple-700 transition-colors"
-                    >
-                      ViewCourses
-                    </a>
-                   */}
-            
           </nav>
 
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center space-x-4">
-          {/* WhatsApp Button with number */}
-  <a
-    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center px-4 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
-  >
-    <span>WhatsApp</span>
-  </a>
+            {/* WhatsApp Button */}
+            <a
+              href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center px-4 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
+            >
+              <span>WhatsApp</span>
+            </a>
 
-  {/* Book Free Call with number */}
-  <a
-    href="tel:+918778315673"
-    className="flex items-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors"
-  >
-    <Phone className="h-4 w-4" />
-    <span>Book Free Call</span>
-  </a>
+            {/* Book Free Call */}
+            <a
+              href="tel:+918778315673"
+              className="flex items-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors"
+            >
+              <Phone className="h-4 w-4" />
+              <span>Book Free Call</span>
+            </a>
 
-{/*   {/* Login Button (unchanged) */}
-  <button className="flex items-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
-    <User className="h-4 w-4" />
-    <span>Login</span>
-  </button>
-</div> */}
-
+            {/* Login Button */}
+            <button
+              className="flex items-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors"
+              type="button"
+            >
+              <User className="h-4 w-4" />
+              <span>Login</span>
+            </button>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
             className="lg:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+            type="button"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -232,6 +215,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
                 <button
                   onClick={() => handleDropdownToggle('mobile-courses')}
                   className="flex items-center justify-between w-full text-gray-700 hover:text-purple-600 font-medium"
+                  type="button"
                 >
                   <span>Courses</span>
                   <ChevronDown className={`h-4 w-4 transition-transform ${activeDropdown === 'mobile-courses' ? 'rotate-180' : ''}`} />
@@ -248,6 +232,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
                             key={courseIndex}
                             onClick={() => handleCourseClick(course.id)}
                             className="block text-sm text-gray-600 hover:text-purple-600 ml-2 w-full text-left"
+                            type="button"
                           >
                             {course.name}
                           </button>
@@ -257,11 +242,12 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
                   </div>
                 )}
               </div>
-              
+
               <div>
                 <button
                   onClick={() => handleDropdownToggle('mobile-services')}
                   className="flex items-center justify-between w-full text-gray-700 hover:text-purple-600 font-medium"
+                  type="button"
                 >
                   <span>Services</span>
                   <ChevronDown className={`h-4 w-4 transition-transform ${activeDropdown === 'mobile-services' ? 'rotate-180' : ''}`} />
@@ -291,34 +277,33 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
               <a href="#faq" className="text-gray-700 hover:text-purple-600 font-medium">
                 FAQ
               </a>
-              
+
               <div className="flex flex-col space-y-2 pt-4">
-  {/* WhatsApp Button with phone number visible */}
-  <a
-    href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center px-6 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
-  >
-    <span>WhatsApp</span>
-  </a>
+                {/* WhatsApp Button with phone number visible */}
+                <a
+                  href="https://wa.me/918778315673?text=Hi! I want to book a free career consultation call with Cognista."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center px-6 py-2 rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
+                >
+                  <span>WhatsApp</span>
+                </a>
 
-  {/* Book Free Call with tel: link */}
-  <a
-    href="tel:+918778315673"
-    className="flex items-center justify-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg"
-  >
-    <Phone className="h-4 w-4" />
-    <span>Book Free Call</span>
-  </a>
+                {/* Book Free Call with tel: link */}
+                <a
+                  href="tel:+918778315673"
+                  className="flex items-center justify-center space-x-2 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors"
+                >
+                  <Phone className="h-4 w-4" />
+                  <span>Book Free Call</span>
+                </a>
 
-  {/* Login button unchanged */}
-  <button className="flex items-center justify-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg">
-    <User className="h-4 w-4" />
-    <span>Login</span>
-  </button>
-</div>
-
+                {/* Login button */}
+                <button className="flex items-center justify-center space-x-2 border border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors" type="button">
+                  <User className="h-4 w-4" />
+                  <span>Login</span>
+                </button>
+              </div>
             </nav>
           </div>
         )}
@@ -328,4 +313,3 @@ const Header: React.FC<HeaderProps> = ({ onOpenCourseDetail, onOpenInternshipDet
 };
 
 export default Header;
-
