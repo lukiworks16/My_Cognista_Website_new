@@ -53,12 +53,19 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-2 rounded-lg">
-                <Brain className="h-8 w-8 text-white" />
-              </div>
-              <span className="text-2xl font-bold">Cognista</span>
-            </div>
+             {/* Logo */}
+          <div
+            className="flex items-center cursor-pointer"
+            onClick={() => window.location.reload()}
+          >
+            <img
+              src="/image.png"
+              alt="Cognista Logo"
+              className="h-20 w-auto"
+            />
+            {/* Adjust size if needed: h-12, h-16, etc. */}
+          </div>
+
             <p className="text-gray-300 mb-6 leading-relaxed">
               India's leading platform for career transformation in AI, Data Science, and Technology. 
               Join thousands who've successfully switched careers with our industry-focused programs.
