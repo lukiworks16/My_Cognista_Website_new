@@ -91,7 +91,7 @@ const ToolsCarousel: React.FC = () => {
     { 
       name: 'AWS', 
       category: 'Cloud Platform', 
-      logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+      logo: 'https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg',
       description: 'Amazon\'s comprehensive cloud computing platform'
     },
     { 
