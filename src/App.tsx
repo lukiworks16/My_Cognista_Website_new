@@ -122,7 +122,7 @@ function App() {
       <WhyChooseUs />
       <CourseCards onOpenPopup={openPopup} onOpenCourseDetail={openCourseDetail} />
       <ToolsCarousel />
-      <CurriculumTabs onOpenPopup={openPopup} />
+{/*       <CurriculumTabs onOpenPopup={openPopup} /> */}
       <Internships onOpenPopup={openPopup} onOpenInternshipDetail={openInternshipDetail} />
       <CareerServices onOpenPopup={openPopup} />
       <Testimonials onOpenPopup={openPopup} />
