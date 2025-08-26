@@ -183,16 +183,16 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Emily Watson',
-          designation: 'Principal Data Scientist',
-          company: 'Netflix',
-          image: 'https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Dhruva A',
+          designation: 'Data Scientist',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         },
         {
-          name: 'David Kim',
-          designation: 'Lead Data Engineer',
-          company: 'Spotify',
-          image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Vasu S',
+          designation: 'Data Engineer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -275,10 +275,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Priya Sharma',
-          designation: 'Principal BI Architect',
-          company: 'Microsoft',
-          image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Dr. Priya A',
+          designation: 'Data Anlayst',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -361,10 +361,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'James Thompson',
-          designation: 'VP of Engineering',
-          company: 'Stripe',
-          image: 'https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Ragu R',
+          designation: 'Python Developer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -442,10 +442,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Sarah Chen',
-          designation: 'Senior ML Engineer',
-          company: 'Google',
-          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Jeevaniya A',
+          designation: ' ML Engineer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -523,10 +523,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Sarah Chen',
-          designation: 'Senior AI Researcher',
-          company: 'Google DeepMind',
-          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Jeevak S',
+          designation: ' AI Researcher',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -599,10 +599,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Priya Sharma',
-          designation: 'Principal BI Architect',
-          company: 'Microsoft',
-          image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: ' Sharma K',
+          designation: 'Power BI Developer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -675,10 +675,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Priya Sharma',
-          designation: 'Principal BI Architect',
-          company: 'Microsoft',
-          image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Adharsh Raj A',
+          designation: 'Tableau Developer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
@@ -751,10 +751,10 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Priya Sharma',
-          designation: 'Principal BI Architect',
-          company: 'Microsoft',
-          image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Aranya D',
+          designation: 'Power BI Developer',
+          company: '  ',
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     }
