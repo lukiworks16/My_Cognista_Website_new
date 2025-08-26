@@ -94,13 +94,13 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
           name: 'Sathish Kumar S',
           designation: ' AI Researcher',
           company: ' ',
-          image: 'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?auto=compress&cs=tinysrgb&w=400'
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         },
         {
           name: 'Krishna S',
           designation: 'Principal ML Engineer',
           company: ' ',
-          image: 'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?auto=compress&cs=tinysrgb&w=400'
+          image: 'https://cdn-icons-png.flaticon.com/512/9187/9187604.png?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
