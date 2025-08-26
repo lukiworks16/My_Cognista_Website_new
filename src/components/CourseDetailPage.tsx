@@ -91,16 +91,16 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       ],
       mentors: [
         {
-          name: 'Dr. Sarah Chen',
-          designation: 'Senior AI Researcher',
-          company: 'Google DeepMind',
-          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
+          name: 'Sathish Kumar S',
+          designation: ' AI Researcher',
+          company: ' ',
+          image: 'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?auto=compress&cs=tinysrgb&w=400'
         },
         {
-          name: 'Michael Rodriguez',
+          name: 'Krishna S',
           designation: 'Principal ML Engineer',
-          company: 'Meta',
-          image: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=400'
+          company: ' ',
+          image: 'https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?auto=compress&cs=tinysrgb&w=400'
         }
       ]
     },
