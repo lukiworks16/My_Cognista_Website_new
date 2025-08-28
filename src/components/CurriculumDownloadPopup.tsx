@@ -17,7 +17,7 @@ const CurriculumDownloadPopup: React.FC<CurriculumDownloadPopupProps> = ({ isOpe
   const [isDownloading, setIsDownloading] = useState(false);
 
   const courses = [
-    { name: 'Master in AI', file: 'https://drive.google.com/file/d/1zc1u4UZjneMuzeSvF8Oj4C1VrpSZ6wpk/view?usp=drive_link' },
+    { name: 'Master of Artificial Intelligence', file: 'https://drive.google.com/file/d/1zc1u4UZjneMuzeSvF8Oj4C1VrpSZ6wpk/view?usp=drive_link' },
     { name: 'Master in Data Science', file: 'https://drive.google.com/file/d/1BWCjhfGyxorswKcRc1_ZXrXMkq8HCJ2L/view?usp=drive_link' },
     { name: 'Data Analyst', file: 'https://drive.google.com/file/d/1rvVbtnpGSpXcrumvbIEPsscphuTmL9B5/view?usp=drive_link' },
     { name: 'Full Stack Python', file: 'https://drive.google.com/file/d/1sqQWba5gaYO4bNVofUk42QmS0mtoBMVP/view?usp=drive_link' },
