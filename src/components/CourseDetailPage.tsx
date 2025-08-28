@@ -19,7 +19,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
       icon: Brain,
       color: 'from-purple-500 to-pink-500',
       image: 'https://urbeuniversity.edu/post_assets/Le9zsr8bQmv7gmZW40UXiVaPsGcpVwaY65mw28tU.webp?auto=compress&cs=tinysrgb&w=1200',
-      price: '₹39,999',
+      price: '₹44,999',
       originalPrice: '₹84,999,00',
       rating: 4.9,
       students: '2,500+',
