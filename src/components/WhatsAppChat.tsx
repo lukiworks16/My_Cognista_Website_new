@@ -49,7 +49,7 @@ const WhatsAppChat: React.FC = () => {
       title: 'General Inquiry',
       description: 'Other questions',
       icon: '💬',
-      message: 'Hi! I have some questions about TechAcademy. Can you help me?'
+      message: 'Hi! I have some questions about Cognista. Can you help me?'
     }
   ];
 
