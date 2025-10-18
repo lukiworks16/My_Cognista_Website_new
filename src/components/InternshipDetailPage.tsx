@@ -580,7 +580,7 @@ const InternshipDetailPage: React.FC<InternshipDetailPageProps> = ({ internshipI
   ];
 
   const handleApplyClick = () => {
-    window.open('https://cognista-internship.vercel.app/', '_blank');
+    window.open('https://docs.google.com/forms/d/16KZ1kQc35fIxW4uHCyM7P5bqJg-CACscLqZzhuMBVv0/viewform', '_blank');
   };
 
   return (
