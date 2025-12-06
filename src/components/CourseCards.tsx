@@ -16,9 +16,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV'],
       outcomes: ['AI Engineer', 'ML Engineer', 'AI Researcher'],
       color: 'from-purple-500 to-pink-500',
-      description: 'Build intelligent systems, neural networks, and machine learning models for real-world applications.',
-      price: '₹44,999,00',
-      originalPrice: '₹84,999,00'
+      description: 'Build intelligent systems, neural networks, and machine learning models for real-world applications.'
+      //price: '₹44,999,00',
+      //originalPrice: '₹84,999,00'
     },
     {
       id: 'master-data-science',
