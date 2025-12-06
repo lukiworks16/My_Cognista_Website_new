@@ -938,7 +938,7 @@ const CourseDetailPage: React.FC<CourseDetailPageProps> = ({ courseId, onBack, o
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Price:</span>
+                    <span className="text-gray-600"> </span>
                     <div>
                       <span className="text-2xl font-bold text-green-600">{course.price}</span>
                       <span className="text-sm text-gray-500 line-through ml-2">{course.originalPrice}</span>
