@@ -28,9 +28,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['Python', 'Numpy', 'Pandas', 'Scikit-learn'],
       outcomes: ['Data Scientist', 'ML Engineer', 'Data Analyst'],
       color: 'from-blue-500 to-cyan-500',
-      description: 'Extract insights from complex data and build predictive models to drive business decisions.',
-      price: '₹34,999,00',
-      originalPrice: '₹79,999,00'
+      description: 'Extract insights from complex data and build predictive models to drive business decisions.'
+      //price: '₹34,999,00',
+      //originalPrice: '₹79,999,00'
     },
     {
       id: 'data-analyst',
@@ -40,9 +40,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['SQL', 'Excel', 'Python', 'Tableau'],
       outcomes: ['Data Analyst', 'Business Analyst', 'BI Analyst'],
       color: 'from-green-500 to-teal-500',
-      description: 'Analyze business data and create visualizations to support strategic decision-making.',
-      price: '₹29,999,00',
-      originalPrice: '₹59,999,00'
+      description: 'Analyze business data and create visualizations to support strategic decision-making.'
+      //price: '₹29,999,00',
+      //originalPrice: '₹59,999,00'
     },
     {
       id: 'full-stack-python',
@@ -52,9 +52,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['Python', 'Django', 'Flask', 'PostgreSQL'],
       outcomes: ['Full Stack Developer', 'Python Developer', 'Web Developer'],
       color: 'from-orange-500 to-red-500',
-      description: 'Build complete web applications from frontend to backend using modern Python frameworks.',
-      price: '₹29,999,00',
-      originalPrice: '₹49,999,00'
+      description: 'Build complete web applications from frontend to backend using modern Python frameworks.'
+      //price: '₹29,999,00',
+      //originalPrice: '₹49,999,00'
     },
     {
       id: 'power-bi',
@@ -64,9 +64,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['Power BI', 'DAX', 'Power Query', 'Excel'],
       outcomes: ['BI Developer', 'Data Analyst', 'BI Consultant'],
       color: 'from-yellow-500 to-orange-500',
-      description: 'Create interactive dashboards and reports with Microsoft Power BI for business intelligence.',
-      price: '₹21,999,00',
-      originalPrice: '₹44,999,00'
+      description: 'Create interactive dashboards and reports with Microsoft Power BI for business intelligence.'
+      //price: '₹21,999,00',
+      //originalPrice: '₹44,999,00'
     },
     {
       id: 'tableau',
@@ -76,9 +76,9 @@ const CourseCards: React.FC<CourseCardsProps> = ({ onOpenPopup, onOpenCourseDeta
       tools: ['Tableau', 'SQL', 'Statistics', 'Analytics'],
       outcomes: ['Tableau Developer', 'Data Visualization Specialist', 'BI Analyst'],
       color: 'from-indigo-500 to-purple-500',
-      description: 'Master data visualization and create stunning interactive dashboards with Tableau.',
-      price: '₹21,999,00',
-      originalPrice: '₹44,999,00'
+      description: 'Master data visualization and create stunning interactive dashboards with Tableau.'
+      //price: '₹21,999,00',
+      //originalPrice: '₹44,999,00'
     }
   ];
 
